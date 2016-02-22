@@ -1,0 +1,2 @@
+1) Checkout repository based on Tag in the Jenkins Pipeline (Workflow) plugin
+checkout scm: [$class: 'GitSCM', userRemoteConfigs: [[url: src]], branches: [[name: 'refs/tags/3.6.1']]], poll: false
