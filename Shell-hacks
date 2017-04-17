@@ -1,0 +1,4 @@
+* To show timestamps with bash history
+
+export HISTTIMEFORMAT="%d/%m/%y %T "
+history
